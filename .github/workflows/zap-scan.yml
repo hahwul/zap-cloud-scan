@@ -11,8 +11,6 @@ on:
          tags:
             description: 'Scanning URL' 
 
-on: [push]
-
 jobs:
   zap_scan:
     runs-on: ubuntu-latest
