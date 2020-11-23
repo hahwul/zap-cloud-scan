@@ -1,5 +1,4 @@
 name: ZAP-SCAN
-on:
    workflow_dispatch:
       inputs:
          target:
