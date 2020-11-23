@@ -23,6 +23,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
-          target: "{{github.event.inputs.target}}"
+          target: "${{ github.event.inputs.target }}"
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
