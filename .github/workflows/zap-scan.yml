@@ -1,4 +1,7 @@
 name: ZAP-SCAN
+on: [push]
+   schedule:
+     - cron: '9 9 9 9 9' #
    workflow_dispatch:
       inputs:
          target:
