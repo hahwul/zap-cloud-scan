@@ -8,8 +8,6 @@ on:
             description: 'target URL'     
             required: true
             default: ''
-         tags:
-            description: 'Scanning URL' 
 
 jobs:
   zap_scan:
